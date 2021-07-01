@@ -1,9 +1,57 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Найти баг</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="adaptive.css">
+</head>
 
-\f0\fs24 \cf0 Index\
-}
+<body>
+
+<header class="header">
+
+  <h1 class="header__title">Выберите уровень сложности:</h1>
+  <p class="header__subtitle">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</p>
+
+</header>
+
+<section class="choice">
+    <div class="choice__level">
+      <input type="radio" class="choice__radio" id="levelChoice1"
+       name="level" value="easy" checked>
+      <label for="levelChoice1"> Простой</label>
+    </div>
+    <div class="choice__level">
+      <input type="radio" class="choice__radio" id="levelChoice2"
+       name="level" value="medium">
+      <label for="levelChoice2"> Средний</label>
+    </div>
+    <div class="choice__level">
+      <input type="radio" class="choice__radio" id="levelChoice3"
+       name="level" value="hard">
+      <label for="levelChoice3"> Сложный</label>
+    </div>
+
+      <button class="choice__btn" type="submit">Начать игру</button>
+
+</section>
+
+
+<div class="cards">
+
+  <div class="cards__1">
+    <img src="images/card.png" alt="карта№1">
+  </div>
+  <div class="cards__2">
+    <img src="images/card.png" alt="карта№2">
+  </div>
+
+</div>
+
+  <script src="file.js"></script>
+
+</body>
+
+</html>
