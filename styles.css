@@ -1,8 +1,165 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+body {
+  background: url(images/Background.png);
+  margin:0;
+  color: #fff;
+  font-family: 'Roboto', arial, helvetica, sans-serif;
+  background-size: cover;
+  width: auto;
+  height: 1024px;
+}
 
-\f0\fs24 \cf0 cds}
+.header {
+  margin: 130px auto  50px 100px;
+}
+
+.header__title{
+  font-size: 67px;
+  line-height: 67px;
+  margin-bottom: 8px;
+}
+
+.header__subtitle{
+  font-size: 19px;
+  line-height: 22px;
+  margin-bottom: 60px;
+}
+
+.choice {
+  margin-left: 157px;
+  font-size: 50px;
+  line-height: 59px;
+  font-weight:700
+}
+
+.choice__level {
+  position: relative;
+}
+
+.choice__level input {
+  display: none;
+}
+
+.choice__radio:checked+label::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: -45px;
+  bottom: 2px;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  background-color: #d62b2e;
+  transform: rotate(45deg);
+}
+.choice__btn {
+  font-size: 32px;
+  color: #fff;
+  background-color: #d62b2e;
+  width: 352px;
+  height: 95px;
+  border-radius: 7px;
+  transition: all 0.5s ease;
+  margin: 112px auto auto -50px;
+}
+
+.choice__btn:hover {
+  color: #d62b2e;
+  background-color: #fff;
+  font-size: 34px;
+}
+
+.cards__1,.cards__2{
+  position: absolute;
+}
+
+.cards__1{
+  left: 926.33px;
+  top: 512px;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.7));
+transform: rotate(12deg);
+
+}
+
+.cards__2{
+  left: 1050px;
+  top: 518px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-2px 0px 1px rgba(0, 0, 0, 0.3));
+  transform: rotate(39deg);
+}
+
+.clear{
+  display: none;
+}
+
+.gameArea{
+  display: flex;
+  height: 71%;
+  margin: 156px 20% 0 20%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameArea10 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card {
+  margin: 0 12px 28px 12px;
+  transition-duration: 0.3s;
+  perspective: 1000px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:not(.gameOver, .bug):hover {
+  cursor: pointer;
+  animation-name: moveCards;
+  animation-duration: 0.5s;
+  -webkit-transform: translate(0, -25px);
+  -ms-transform: translate(0, -25px);
+  transform: translate(0, -25px);
+}
+
+.cover {
+  background: url(images/card.png);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 218px;
+  height: 341px;
+}
+
+
+.bug {
+  background: url(images/bug.png);
+  border-radius: 10px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.gameOver {
+  background: url(images/gameOver.png);
+  border-radius: 10px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+@keyframes moveCards {
+  from {
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: translate(0, -25px);
+    -ms-transform: translate(0, -25px);
+    transform: translate(0, -25px);
+  }
+}
