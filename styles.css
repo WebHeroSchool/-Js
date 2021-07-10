@@ -9,30 +9,32 @@ body {
 }
 
 .header {
-  margin: 130px auto  50px 100px;
+  margin: 130px auto  50px 107px;
 }
 
 .header__title{
-  font-size: 67px;
-  line-height: 67px;
-  margin-bottom: 8px;
+  font-size: 54px;
+  line-height: 60px;
+  margin-bottom: 0;
 }
 
 .header__subtitle{
+  font-weight: 400;
   font-size: 19px;
-  line-height: 22px;
-  margin-bottom: 60px;
+  line-height: 17px;
+  margin: 17px 0 61px 3px;
 }
 
 .choice {
-  margin-left: 157px;
-  font-size: 50px;
+  margin-left: 153px;
+  font-size: 48px;
   line-height: 59px;
   font-weight:700
 }
 
 .choice__level {
   position: relative;
+  margin-bottom: 25px;
 }
 
 .choice__level input {
@@ -59,7 +61,7 @@ body {
   height: 95px;
   border-radius: 7px;
   transition: all 0.5s ease;
-  margin: 112px auto auto -50px;
+  margin: 88px auto auto -50px;
 }
 
 .choice__btn:hover {
@@ -73,16 +75,16 @@ body {
 }
 
 .cards__1{
-  left: 926.33px;
-  top: 512px;
+  left: 890px;
+  top: 530px;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.7));
 transform: rotate(12deg);
 
 }
 
 .cards__2{
-  left: 1050px;
-  top: 518px;
+  left: 1067px;
+  top: 548px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-2px 0px 1px rgba(0, 0, 0, 0.3));
   transform: rotate(39deg);
 }
@@ -91,7 +93,7 @@ transform: rotate(12deg);
   display: none;
 }
 
-.gameArea{
+.table{
   display: flex;
   height: 71%;
   margin: 156px 20% 0 20%;
@@ -100,9 +102,14 @@ transform: rotate(12deg);
   align-items: center;
 }
 
-.gameArea10 {
-  margin-left: 5%;
-  margin-right: 5%;
+
+.table3Cards{
+  margin-top: 11.3%;
+}
+
+.table10Cards {
+  margin-left: 3%;
+  margin-right: 4%;
 }
 
 .card {
