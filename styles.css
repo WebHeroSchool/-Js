@@ -1,13 +1,16 @@
 body {
   background: url(images/Background.png);
-  margin:0;
-  color: #fff;
-  font-family: 'Roboto', arial, helvetica, sans-serif;
   background-size: cover;
-  width: auto;
-  height: 1024px;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  width: 100%;
 }
 
+.container{
+  color: #fff;
+  font-family: 'Roboto', arial, helvetica, sans-serif;
+}
 .header {
   margin: 130px auto  50px 107px;
 }
@@ -104,12 +107,11 @@ transform: rotate(12deg);
 
 
 .table3Cards{
-  margin-top: 11.3%;
+  margin-top: 23.7%;
 }
 
-.table10Cards {
-  margin-left: 3%;
-  margin-right: 4%;
+.table10Cards{
+  margin: 11% 4% 0 4%;
 }
 
 .card {
