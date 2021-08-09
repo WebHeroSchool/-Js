@@ -65,6 +65,7 @@ body {
   border-radius: 7px;
   transition: all 0.5s ease;
   margin: 88px auto auto -50px;
+  transition: background .2s linear, color .1s linear;
 }
 
 .choice__btn:hover {
