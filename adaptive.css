@@ -38,27 +38,29 @@ margin: 20% 8.349%;
 @media (max-width: 1452px) {
 
   .choice{
-    margin-top: 100px;
+    margin-top: 10px;
   }
   .cards__1{
-    left: 790px;
-    top: 430px;
+    left: 890px;
+    top: 530px;
 
   }
 
   .cards__2{
-    left: 967px;
-    top: 448px;
+    left: 1070px;
+    top: 548px;
   }
 
   .table{
-    height: 61%;
-    margin: 25% 16.668%;
+  margin-top: 23.56%;
   }
 
+  .table6Cards{
+    margin: 11.04% 16.668%;
+  }
 
   .table10Cards{
-    margin: 10% 0;
+    margin: 10.95% 0.1%;
   }
 }
 
