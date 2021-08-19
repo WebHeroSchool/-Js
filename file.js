@@ -66,6 +66,7 @@ document.querySelector('.choice__btn').addEventListener('click', () => {
 
       if (value === 'medium') {
         getCards(6);
+        game.classList.add('table6Cards');
       }
 
       if (value === 'hard') {

@@ -1,0 +1,439 @@
+@media only screen and (min-width: 601px) and (max-width: 1920px) {
+.header__subtitle_mobile{
+  display: none;
+}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+.header__subtitle{
+  display: none;
+}
+
+}
+
+@media (max-width: 1920px) {
+
+
+.table6Cards{
+  margin: 20% 29.18%;
+}
+.table10Cards{
+margin: 20% 15%;
+}
+
+}
+
+@media (max-width: 1743px) {
+
+
+.table6Cards{
+  margin: 20% 25%;
+}
+.table10Cards{
+margin: 20% 8.349%;
+}
+
+}
+
+@media (max-width: 1452px) {
+
+  .choice{
+    margin-top: 10px;
+  }
+  .cards__1{
+    left: 890px;
+    top: 530px;
+
+  }
+
+  .cards__2{
+    left: 1070px;
+    top: 548px;
+  }
+
+  .table{
+  margin-top: 23.56%;
+  }
+
+  .table6Cards{
+    margin: 11.04% 16.668%;
+  }
+
+  .table10Cards{
+    margin: 10.95% 0.1%;
+  }
+}
+
+@media (max-width: 1240px) {
+
+  .table{
+    height: 61%;
+    margin: 35% 20%;
+  }
+
+  .table10Cards{
+    margin: 10% 1% 0 1%;
+  }
+
+  .header__subtitle{
+    margin-bottom: 10%;
+  }
+  .choice__level {
+    padding-top: 2%;
+  }
+
+  .choice__btn {
+  margin-bottom: 100%;
+  }
+
+  .card{
+      width: 185px;
+      height: 290px;
+    }
+
+
+    .bug {
+        background: url(images/bug800.png);
+        border-radius: 5px;
+
+      }
+    .gameOver {
+      background: url(images/gameOver800.png);
+      border-radius: 5px;
+
+    }
+
+    .cover {
+      background: url(images/card800.png);
+    }
+
+    .table6Cards{
+      margin: 156px 19% 0 19%;
+    }
+
+
+    .table10Cards{
+      margin: 10% 0;
+    }
+
+}
+
+@media (max-width: 1045px) {
+
+
+  .choice{
+    margin-left: 90px;
+  }
+  .cards__1{
+    left: 540px;
+    top: 430px;
+
+  }
+
+  .cards__2{
+    left: 717px;
+    top: 448px;
+  }
+
+  .choice__radio:checked+label::before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -50px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 875px) and (max-width: 1045px) {
+
+  .table{
+    height: 61%;
+    margin: 200px 23% 0 23%;
+  }
+
+  .table6Cards{
+  margin: 15% 9.3% 0 9.3%
+  }
+
+  .table10Cards{
+  margin: 10% 10.1% 0 10.1%;
+ }
+
+  .card{
+    width: 115px;
+    height: 180px;
+  }
+
+  .cover {
+    background: url(images/card600.png);
+
+  }
+
+  .bug {
+    background: url(images/bug600.png);
+  }
+
+  .gameOver {
+    background: url(images/gameOver600.png);
+  }
+
+  .table6Cards{
+    margin: 156px 25% 0 25%;
+  }
+
+
+  .table10Cards{
+    margin: 10% 10.2%;
+  }
+
+}
+
+@media only screen and (min-width: 730px) and (max-width: 874px) {
+  body{
+  overflow: hidden;
+}
+
+  .header{
+    margin: 90px 50px;
+  }
+
+  .header__title {
+    font-size: 42px;
+  }
+
+  .header__subtitle {
+    font-size: 14px;
+  }
+
+  .choice__level {
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+  .choice{
+  margin: 90px 100px;
+  }
+
+  .choice__btn {
+    margin: 70px auto 100vh;
+    font-size: 28px;
+    padding: 16px 40px 16px 32px;
+    width: 230px;
+    height: 75px;
+    font-size: 24px;
+
+  }
+
+  .cards__1, .cards__2 {
+    width: 30%;
+    height: 40%;
+}
+
+  .cards__1{
+      left: 490px;
+      top: 330px;
+      transform: rotate( 8deg)
+    }
+
+  .cards__2{
+      left: 517px;
+      top: 348px;
+      transform: rotate( 30deg)
+}
+  .table{
+    height: 65%;
+    margin: 30% 22% 0 22%;
+  }
+
+  .table6Cards{
+    margin: 20% 23% 0 23%;
+  }
+
+
+  .table10Cards{
+    margin: 20% 8.9%;
+  }
+
+  .card{
+    width: 96px;
+    height: 150px;
+  }
+
+  .cover {
+    background: url(images/card320.png)
+  }
+
+  .bug {
+    background: url(images/bug320.png)
+  }
+
+  .gameOver {
+    background: url(images/gameOver320.png)
+  }
+
+}
+
+@media (max-width: 729px) {
+
+  body{
+    text-align: center;
+  }
+
+  .header {
+    margin: 50px auto;
+  }
+
+  .header__title{
+    font-size: 30px;
+
+  }
+
+  .choice{
+  margin: auto;
+  }
+
+  .choice__level{
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+
+.choice__radio:checked+label::before {
+    top: 12px;
+    right: 110px;
+}
+  .choice__btn{
+      font-size: 28px;
+      padding: 16px 40px 16px 32px;
+      width: 230px;
+      height: 75px;
+      font-size: 24px;
+      margin: 70px auto;
+  }
+
+  .card{
+    width: 45px;
+    height: 70px;
+  }
+
+
+  .cards{
+    display: none;
+  }
+
+
+  .cover {
+    background: url(images/cardMobile.png);
+
+  }
+
+  .bug {
+    background: url(images/bugMobile.png);
+  }
+
+  .gameOver {
+    background: url(images/gameOverMobile.png);
+  }
+
+  .table6Cards{
+    margin: 30% 31.09%;
+  }
+
+
+  .table10Cards{
+    margin: 35% 21.608%;
+  }
+}
+
+@media only screen and (min-width: 405px) and (max-width: 607px) {
+
+  .header{
+    margin: 70px auto;
+  }
+
+  .header__title {
+    font-size: 24px;
+    line-height: 33px;
+
+  }
+
+
+  .header__subtitle {
+    font-size: 12px;
+  }
+
+  .choice__level {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .choice__btn {
+    font-size: 24px;
+    padding: 16px 40px 16px 32px;
+    margin: 3% 4%;
+    margin: 15% 0 100% 0;
+  }
+
+  .choice__radio:checked+label::before {
+      top: 4px;
+      right: 100px;
+      width: 15px;
+      height: 15px;
+
+  }
+
+  .card{
+    width: 45px;
+    height: 70px;
+  }
+
+
+  .table{
+    height: 46%;
+    margin: 30% 20% 0 20%;
+  }
+
+  .table6Cards{
+    margin: 30% 27.27%;
+  }
+
+
+  .table10Cards{
+    margin: 20% 32.952%;
+  }
+
+}
+
+@media only screen and (min-width: 270px) and (max-width: 404px) {
+
+  .table{
+    margin: 40% 0%;
+  }
+
+
+
+  .table6Cards{
+    margin: 30% 24.389%;
+  }
+
+
+  .table10Cards{
+    margin: 20% 24.386%;
+  }
+
+}
+
+@media only screen and (min-width: 180px) and (max-width: 269px) {
+  .table6Cards, .table10Cards{
+    margin: 30% 11.56%;
+  }
+
+  .table{
+    margin: 40% 25%;
+  }
+
+
+}

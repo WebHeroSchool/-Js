@@ -1,13 +1,16 @@
 body {
   background: url(images/Background.png);
-  margin:0;
-  color: #fff;
-  font-family: 'Roboto', arial, helvetica, sans-serif;
   background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
   width: auto;
-  height: 1024px;
 }
 
+.container{
+  color: #fff;
+  font-family: 'Roboto', arial, helvetica, sans-serif;
+}
 .header {
   margin: 130px auto  50px 107px;
 }
@@ -62,6 +65,7 @@ body {
   border-radius: 7px;
   transition: all 0.5s ease;
   margin: 88px auto auto -50px;
+  transition: background .2s linear, color .1s linear;
 }
 
 .choice__btn:hover {
@@ -104,20 +108,21 @@ transform: rotate(12deg);
 
 
 .table3Cards{
-  margin-top: 11.3%;
+  margin-top: 23.7%;
 }
 
-.table10Cards {
-  margin-left: 3%;
-  margin-right: 4%;
+.table10Cards{
+  margin: 15% 4% 0 4%;
 }
 
 .card {
   margin: 0 12px 28px 12px;
-  transition-duration: 0.3s;
+  transition-duration: 2s;
   perspective: 1000px;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  width: 218px;
+  height: 341px;
 }
 
 .card:not(.gameOver, .bug):hover {
@@ -127,14 +132,15 @@ transform: rotate(12deg);
   -webkit-transform: translate(0, -25px);
   -ms-transform: translate(0, -25px);
   transform: translate(0, -25px);
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
 }
 
 .cover {
   background: url(images/card.png);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  width: 218px;
-  height: 341px;
+  width: 100%;
+  height: 100%;
 }
 
 
