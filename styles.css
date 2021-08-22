@@ -7,21 +7,22 @@ body {
   width: auto;
 }
 
-.container{
+.container {
   color: #fff;
   font-family: 'Roboto', arial, helvetica, sans-serif;
 }
+
 .header {
   margin: 130px auto  50px 107px;
 }
 
-.header__title{
+.header__title {
   font-size: 54px;
   line-height: 60px;
   margin-bottom: 0;
 }
 
-.header__subtitle{
+.header__subtitle {
   font-weight: 400;
   font-size: 19px;
   line-height: 17px;
@@ -32,7 +33,7 @@ body {
   margin-left: 153px;
   font-size: 48px;
   line-height: 59px;
-  font-weight:700
+  font-weight: 700;
 }
 
 .choice__level {
@@ -56,6 +57,7 @@ body {
   background-color: #d62b2e;
   transform: rotate(45deg);
 }
+
 .choice__btn {
   font-size: 32px;
   color: #fff;
@@ -74,30 +76,30 @@ body {
   font-size: 34px;
 }
 
-.cards__1,.cards__2{
+.cards__1,
+.cards__2 {
   position: absolute;
 }
 
-.cards__1{
+.cards__1 {
   left: 890px;
   top: 530px;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.7));
-transform: rotate(12deg);
-
+  transform: rotate(12deg);
 }
 
-.cards__2{
+.cards__2 {
   left: 1067px;
   top: 548px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-2px 0px 1px rgba(0, 0, 0, 0.3));
   transform: rotate(39deg);
 }
 
-.clear{
+.clear {
   display: none;
 }
 
-.table{
+.table {
   display: flex;
   height: 71%;
   margin: 156px 20% 0 20%;
@@ -107,11 +109,11 @@ transform: rotate(12deg);
 }
 
 
-.table3Cards{
+.table3Cards {
   margin-top: 23.7%;
 }
 
-.table10Cards{
+.table10Cards {
   margin: 15% 4% 0 4%;
 }
 
@@ -119,11 +121,10 @@ transform: rotate(12deg);
   margin: 0 12px 28px 12px;
   transition-duration: 2s;
   perspective: 1000px;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
   width: 218px;
   height: 341px;
-}
+  transition: transform 0.8s; transform-style: preserve-3d;
+ }
 
 .card:not(.gameOver, .bug):hover {
   cursor: pointer;
@@ -178,26 +179,24 @@ transform: rotate(12deg);
 }
 
 @media only screen and (min-width: 601px) and (max-width: 2000px) {
-    .header__subtitle_mobile {
-      display: none;
-    }
+.header__subtitle_mobile {
+    display: none;
+  }
 }
 
-  @media only screen and (min-width: 100px) and (max-width: 600px) {
-
-  .header__subtitle{
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+.header__subtitle {
     display: none;
-    }
   }
+}
 
-  @media only screen and (min-width: 1453px) and (max-width: 1920px) {
-
-  .table6Cards {
-  margin: 20% 29.18%;
+@media only screen and (min-width: 1453px) and (max-width: 1920px) {
+.table6Cards {
+    margin: 20% 29.18%;
   }
 
   .table10Cards {
-  margin: 20% 15%;
+    margin: 20% 15%;
   }
 
   .header__title {
@@ -238,8 +237,7 @@ transform: rotate(12deg);
 
 }
 
-  @media (max-width: 1743px) {
-
+@media (max-width: 1743px) {
   .table6Cards {
     margin: 20% 25%;
   }
@@ -250,40 +248,38 @@ transform: rotate(12deg);
 
 }
 
-  @media (max-width: 1452px) {
-
-    .choice {
-      margin-top: 10px;
-    }
+@media (max-width: 1452px) {
+  .choice {
+    margin-top: 10px;
+  }
 
   .cards__1 {
     left: 890px;
     top: 530px;
   }
 
-  .cards__2{
+  .cards__2 {
     left: 1070px;
     top: 548px;
   }
 
   .table {
-    margin-top:23.56%;
+    margin-top: 23.56%;
   }
 
   .table6Cards {
     margin: 11.04% 16.668%;
   }
 
-  .table10Cards{
+  .table10Cards {
     margin: 10.95% 0.1%;
   }
 
 }
 
-  @media (max-width: 1240px) {
-
+@media (max-width: 1240px) {
   .table {
-    margin:20% 20%;
+    margin: 20% 20%;
   }
 
   .table10Cards {
@@ -299,12 +295,12 @@ transform: rotate(12deg);
   }
 
   .choice__btn {
-    margin-bottom:100%;
+    margin-bottom: 100%;
   }
 
   .card {
-    width:140px;
-    height:218px;
+    width: 140px;
+    height: 218px;
   }
 
   .bug {
@@ -322,7 +318,7 @@ transform: rotate(12deg);
   }
 
   .table6Cards {
-   margin: 156px 19% 0 19%;
+    margin: 156px 19% 0 19%;
   }
 
   .table10Cards {
@@ -332,9 +328,7 @@ transform: rotate(12deg);
 }
 
 @media (max-width: 1045px) {
-
-
-  .choice{
+  .choice {
     margin-left: 90px;
   }
 
@@ -354,7 +348,7 @@ transform: rotate(12deg);
     transform: rotate(23deg)
   }
 
-  .choice__radio:checked+label::before {
+  .choice__radio:checked+ label::before {
     content: '';
     position: absolute;
     top: 10%;
@@ -367,8 +361,7 @@ transform: rotate(12deg);
 
 }
 
-  @media only screen and (min-width: 875px) and (max-width: 1045px) {
-
+@media only screen and (min-width: 875px) and (max-width: 1045px) {
   .header {
     margin: 60px auto  130px 60px;
   }
@@ -412,8 +405,7 @@ transform: rotate(12deg);
 
 }
 
-  @media only screen and (min-width: 660px) and (max-width: 874px) {
-
+@media only screen and (min-width: 660px) and (max-width: 874px) {
   body {
     text-align: center;
   }
@@ -444,7 +436,7 @@ transform: rotate(12deg);
   margin: auto;
   }
 
-  .choice__radio:checked+label::before {
+  .choice__radio:checked+ label::before {
     top: 2%;
     right: 172px;
   }
@@ -484,8 +476,7 @@ transform: rotate(12deg);
 
 }
 
-  @media (max-width: 659px) {
-
+@media (max-width: 659px) {
   body {
     text-align: center;
   }
@@ -507,7 +498,7 @@ transform: rotate(12deg);
     margin-bottom: 0;
   }
 
-  .choice__radio:checked+label::before {
+  .choice__radio:checked+ label::before {
     top: 2%;
     right: 120px;
   }
@@ -552,8 +543,7 @@ transform: rotate(12deg);
 
 }
 
-  @media only screen and (min-width: 350px) and (max-width: 500px) {
-
+@media only screen and (min-width: 350px) and (max-width: 500px) {
   .header {
     margin: 60px auto;
   }
@@ -580,7 +570,7 @@ transform: rotate(12deg);
     height: 65px;
   }
 
-  .choice__radio:checked+label::before {
+  .choice__radio:checked+ label::before {
     top: 4px;
     right: 100px;
     width: 15px;
@@ -615,7 +605,6 @@ transform: rotate(12deg);
 }
 
 @media only screen and (min-width: 100px) and (max-width: 349px) {
-
   .header {
     margin: 30px 0;
   }
@@ -637,7 +626,7 @@ transform: rotate(12deg);
     margin: 5% 9.61%;
   }
 
-  .card{
+  .card {
     width: 70px;
     height: 109px;
   }
