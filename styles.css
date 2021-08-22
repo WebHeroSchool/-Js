@@ -45,7 +45,7 @@ body {
   display: none;
 }
 
-.choice__radio:checked+ label::before {
+.choice__radio:checked + label::before {
   content: '';
   position: absolute;
   top: 0;
@@ -124,7 +124,7 @@ body {
   height: 341px;
   transition: transform 0.8s;
   transform-style: preserve-3d;
- }
+}
 
 .card:not(.gameOver, .bug):hover {
   cursor: pointer;
@@ -243,7 +243,6 @@ body {
   .table10Cards {
     margin: 20% 8.349%;
   }
-
 }
 
 @media (max-width: 1452px) {
@@ -342,7 +341,7 @@ body {
     transform: rotate(23deg);
   }
 
-  .choice__radio:checked+ label::before {
+  .choice__radio:checked + label::before {
     content: '';
     position: absolute;
     top: 10%;
@@ -420,7 +419,7 @@ body {
     margin: auto;
   }
 
-  .choice__radio:checked+ label::before {
+  .choice__radio:checked + label::before {
     top: 2%;
     right: 172px;
   }
@@ -482,7 +481,7 @@ body {
     margin-bottom: 0;
   }
 
-  .choice__radio:checked+ label::before {
+  .choice__radio:checked + label::before {
     top: 2%;
     right: 120px;
   }
@@ -553,7 +552,7 @@ body {
     height: 65px;
   }
 
-  .choice__radio:checked+ label::before {
+  .choice__radio:checked + label::before {
     top: 4px;
     right: 100px;
     width: 15px;

@@ -50,7 +50,7 @@ document.querySelector(".choice__btn").addEventListener("click", () => {
             rotate();
             cardFlipped = true;
         }
-      })
+      });
     }
   }
 
