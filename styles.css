@@ -45,10 +45,10 @@ body {
   display: none;
 }
 
-.choice__radio:checked+label::before {
+.choice__radio:checked+ label::before {
   content: '';
   position: absolute;
-  top: 0px;
+  top: 0;
   left: -45px;
   bottom: 2px;
   margin: auto;
@@ -91,7 +91,7 @@ body {
 .cards__2 {
   left: 1067px;
   top: 548px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-2px 0px 1px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(-2px 0 1px rgba(0, 0, 0, 0.3));
   transform: rotate(39deg);
 }
 
@@ -107,7 +107,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 
 .table3Cards {
   margin-top: 23.7%;
@@ -179,19 +178,19 @@ body {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 2000px) {
-.header__subtitle_mobile {
+  .header__subtitle_mobile {
     display: none;
   }
 }
 
 @media only screen and (min-width: 100px) and (max-width: 600px) {
-.header__subtitle {
+  .header__subtitle {
     display: none;
   }
 }
 
 @media only screen and (min-width: 1453px) and (max-width: 1920px) {
-.table6Cards {
+  .table6Cards {
     margin: 20% 29.18%;
   }
 
@@ -282,10 +281,6 @@ body {
     margin: 20% 20%;
   }
 
-  .table10Cards {
-    margin: 10% 1% 0 1%;
-  }
-
   .header__subtitle {
     margin-bottom: 10%;
   }
@@ -357,8 +352,6 @@ body {
     height: 20px;
   }
 
-
-
 }
 
 @media only screen and (min-width: 875px) and (max-width: 1045px) {
@@ -370,29 +363,21 @@ body {
     margin: 200px 23% 0 23%;
   }
 
-  .table6Cards {
-    margin: 15% 9.3% 0 9.3%
-  }
-
-  .table10Cards {
-    margin: 10% 10.1% 0 10.1%;
-  }
-
   .card {
-      width: 115px;
-      height: 180px;
+    width: 115px;
+    height: 180px;
   }
 
   .cover {
-      background:url(images/card600.png);
+    background: url(images/card600.png);
   }
 
   .bug {
-      background:url(images/bug600.png);
+    background: url(images/bug600.png);
   }
 
   .gameOver {
-      background:url(images/gameOver600.png);
+    background: url(images/gameOver600.png);
   }
 
   .table6Cards {
@@ -400,7 +385,7 @@ body {
   }
 
   .table10Cards {
-      margin: 10% 10.2%;
+    margin: 10% 10.2%;
   }
 
 }
@@ -411,7 +396,7 @@ body {
   }
 
   .cards {
-  display: none;
+    display: none;
   }
 
   .header {
@@ -433,7 +418,7 @@ body {
   }
 
   .choice {
-  margin: auto;
+    margin: auto;
   }
 
   .choice__radio:checked+ label::before {
@@ -471,7 +456,7 @@ body {
   }
 
   .gameOver {
-      background: url(images/gameOver800.png);
+    background: url(images/gameOver800.png);
   }
 
 }
@@ -486,7 +471,7 @@ body {
   }
 
   .header__title {
-    font-size:30px;
+    font-size: 30px;
   }
 
   .choice {
@@ -504,7 +489,6 @@ body {
   }
 
   .choice__btn {
-    font-size: 28px;
     padding: 16px 40px 16px 32px;
     width: 230px;
     height: 75px;
@@ -512,7 +496,7 @@ body {
     margin: 70px auto;
   }
 
-    .card {
+  .card {
     width: 116px;
     height: 180px;
   }
@@ -640,7 +624,7 @@ body {
   }
 
   .gameOver {
-    background:url(images/gameOverMobile.png);
+    background: url(images/gameOverMobile.png);
   }
 
   }
