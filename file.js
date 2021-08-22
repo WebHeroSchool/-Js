@@ -1,8 +1,8 @@
 document.querySelector(".choice__btn").addEventListener("click", () => {
 
 
-  const field = document.querySelector(".container")
-  field.classList.add("clear")
+  const field = document.querySelector(".container");
+  field.classList.add("clear");
 
 
   const table = document.createElement("div");
@@ -24,7 +24,7 @@ document.querySelector(".choice__btn").addEventListener("click", () => {
       let cover = document.createElement("div");
       cover.className = "cover";
       card.append(cover);
-    })
+    });
   }
 
   function openCard() {
