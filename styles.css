@@ -13,13 +13,13 @@ body {
 }
 
 .header {
-  margin: 130px auto  50px 107px;
+  margin: 133px auto  50px 102px;
 }
 
 .header__title {
   font-size: 54px;
   line-height: 60px;
-  margin-bottom: 0;
+  margin-bottom: -3px;
 }
 
 .header__subtitle {
@@ -38,7 +38,7 @@ body {
 
 .choice__level {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 25.5px;
 }
 
 .choice__level input {
@@ -290,8 +290,8 @@ body {
   }
 
   .card {
-    width: 140px;
-    height: 218px;
+    width: 185px;
+    height: 290px;
   }
 
   .bug {
@@ -352,35 +352,6 @@ body {
   .header {
     margin: 60px auto  130px 60px;
   }
-
-  .table {
-    margin: 200px 23% 0 23%;
-  }
-
-  .card {
-    width: 115px;
-    height: 180px;
-  }
-
-  .cover {
-    background: url(images/card600.png);
-  }
-
-  .bug {
-    background: url(images/bug600.png);
-  }
-
-  .gameOver {
-    background: url(images/gameOver600.png);
-  }
-
-  .table6Cards {
-    margin: 156px 25% 0 25%;
-  }
-
-  .table10Cards {
-    margin: 10% 10.2%;
-  }
 }
 
 @media only screen and (min-width: 660px) and (max-width: 874px) {
@@ -436,8 +407,8 @@ body {
   }
 
   .card {
-    width: 140px;
-    height: 217px;
+    width: 185px;
+    height: 290px;
   }
 
   .cover {
@@ -601,8 +572,8 @@ body {
   }
 
   .card {
-    width: 70px;
-    height: 109px;
+    width: 45px;
+    height: 70px;
   }
 
   .cover {
