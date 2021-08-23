@@ -39,11 +39,11 @@ document.querySelector(".choice__btn").addEventListener("click", () => {
         if (cards[i] === bug) {
           cards[i].classList.add("bug");
         } else {
-            cards[i].classList.add('gameOver');
+            cards[i].classList.add("gameOver");
         }
       }
 
-      cards[i].addEventListener('click', () => {
+      cards[i].addEventListener("click", () => {
         if (cardFlipped === true) {
           window.location.reload();
         } else {
@@ -78,4 +78,4 @@ document.querySelector(".choice__btn").addEventListener("click", () => {
     openCard();
     }
   }
-})
+});

@@ -65,7 +65,6 @@ body {
   width: 352px;
   height: 95px;
   border-radius: 7px;
-  transition: all 0.5s ease;
   margin: 88px auto auto -50px;
   transition: background 0.2s linear, color 0.1s linear;
 }
@@ -122,7 +121,7 @@ body {
   perspective: 1000px;
   width: 218px;
   height: 341px;
-  transition: transform 0.8s;
+  transition-duration: transform 0.8s;
   transform-style: preserve-3d;
 }
 
@@ -271,7 +270,6 @@ body {
   .table10Cards {
     margin: 10.95% 0.1%;
   }
-
 }
 
 @media (max-width: 1240px) {
@@ -625,4 +623,4 @@ body {
     background: url(images/gameOverMobile.png);
   }
 
-  }
+}
