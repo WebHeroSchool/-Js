@@ -121,7 +121,7 @@ body {
   perspective: 1000px;
   width: 218px;
   height: 341px;
-  transition-property: transform 0.8s;
+  transition: transform 0.8s;
   transform-style: preserve-3d;
 }
 
