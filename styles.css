@@ -121,7 +121,7 @@ body {
   perspective: 1000px;
   width: 218px;
   height: 341px;
-  transition-duration: transform 0.8s;
+  transition-property: transform 0.8s;
   transform-style: preserve-3d;
 }
 
@@ -315,7 +315,6 @@ body {
   .table10Cards {
     margin: 10% 0;
   }
-
 }
 
 @media (max-width: 1045px) {
@@ -347,7 +346,6 @@ body {
     width: 20px;
     height: 20px;
   }
-
 }
 
 @media only screen and (min-width: 875px) and (max-width: 1045px) {
@@ -383,7 +381,6 @@ body {
   .table10Cards {
     margin: 10% 10.2%;
   }
-
 }
 
 @media only screen and (min-width: 660px) and (max-width: 874px) {
@@ -454,7 +451,6 @@ body {
   .gameOver {
     background: url(images/gameOver800.png);
   }
-
 }
 
 @media (max-width: 659px) {
@@ -520,7 +516,6 @@ body {
   .table10Cards {
     margin: 5% 7.52%;
   }
-
 }
 
 @media only screen and (min-width: 350px) and (max-width: 500px) {
@@ -581,7 +576,6 @@ body {
   .table10Cards {
     margin: 5% 7.54%;
   }
-
 }
 
 @media only screen and (min-width: 100px) and (max-width: 349px) {
@@ -622,5 +616,4 @@ body {
   .gameOver {
     background: url(images/gameOverMobile.png);
   }
-
 }
